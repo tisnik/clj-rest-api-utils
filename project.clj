@@ -10,7 +10,7 @@
 ;      Pavel Tisnovsky
 ;
 
-(defproject clj-rest-api-utils "0.1.0-SNAPSHOT"
+(defproject org.clojars.tisnik/clj-rest-api-utils "0.1.0-SNAPSHOT"
     :description "Utility functions for handling REST API calls."
     :url "http://example.com/FIXME"
     :license {:name "Eclipse Public License"
