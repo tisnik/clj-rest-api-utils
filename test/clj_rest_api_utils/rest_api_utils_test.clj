@@ -1,6 +1,6 @@
-(ns clj-rest-api-utils.core-test
+(ns clj-rest-api-utils.rest-api-utils-test
   (:require [clojure.test :refer :all]
-            [clj-rest-api-utils.core :refer :all]))
+            [clj-rest-api-utils.rest-api-utils :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
