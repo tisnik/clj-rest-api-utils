@@ -1,5 +1,5 @@
 ;
-;  (C) Copyright 2017, 2018, 2019, 2020  Pavel Tisnovsky
+;  (C) Copyright 2017, 2018, 2019, 2020, 2021  Pavel Tisnovsky
 ;
 ;  All rights reserved. This program and the accompanying materials
 ;  are made available under the terms of the Eclipse Public License v1.0
@@ -27,59 +27,59 @@
 ; Tests
 ;
 (deftest test-read-request-body-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/read-request-body definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/read-request-body function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/read-request-body definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/read-request-body function definition exists."
     (is (callable? 'clj-rest-api-utils.rest-api_utils/read-request-body))))
 
 
 (deftest test-body->results-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/body->results definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/body->results function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/body->results definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/body->results function definition exists."
     (is (callable? 'clj-rest-api-utils.rest-api_utils/body->results))))
 
 
 (deftest test-send-response-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/send-response definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/send-response function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/send-response definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/send-response function definition exists."
     (is (callable? 'clj-rest-api-utils.rest-api_utils/send-response))))
 
 
 (deftest test-send-response-with-cookie-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/send-response-with-cookie definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/send-response-with-cookie function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/send-response-with-cookie definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/send-response-with-cookie function definition exists."
     (is (callable?
           'clj-rest-api-utils.rest-api_utils/send-response-with-cookie))))
 
 
 (deftest test-send-ok-response-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/send-ok-response definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/send-ok-response function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/send-ok-response definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/send-ok-response function definition exists."
     (is (callable? 'clj-rest-api-utils.rest-api_utils/send-ok-response))))
 
 
 (deftest test-send-error-response-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/send-error-response definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/send-error-response function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/send-error-response definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/send-error-response function definition exists."
     (is (callable? 'clj-rest-api-utils.rest-api_utils/send-error-response))))
 
 
 (deftest test-send-error-response-wrong-date-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/send-error-response-wrong-date definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/send-error-response-wrong-date function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/send-error-response-wrong-date definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/send-error-response-wrong-date function definition exists."
     (is (callable?
           'clj-rest-api-utils.rest-api_utils/send-error-response-wrong-date))))
 
 
 (deftest test-send-plain-response-existence
-  "Check that the clj-rest-api-utils.rest-api_utils/send-plain-response definition exists."
+  "Check that the clj-rest-api-utils.rest-api_utils/send-plain-response function definition exists."
   (testing
-    "if the clj-rest-api-utils.rest-api_utils/send-plain-response definition exists."
+    "if the clj-rest-api-utils.rest-api_utils/send-plain-response function definition exists."
     (is (callable? 'clj-rest-api-utils.rest-api_utils/send-plain-response))))
 
